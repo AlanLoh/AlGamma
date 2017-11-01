@@ -162,7 +162,6 @@ class algamma(object):
             else:
                 # create the model using make3FGLxml
                 self._model = m
-                if 
                 self.makeModel()
                 
     @property
@@ -2321,8 +2320,8 @@ class FermiMap(object):
         self.ftsize1   = 9
         self.ftsize2   = 6
         self.ftsize3   = 5
-        self.color     = 'black'
-        self.colormap  = 'Spectral_r'
+        self.color     = '#e6004c'#'black'
+        self.colormap  = 'bone'#'Spectral_r'
         self.cbarlabel = r'cbarlabel'
         self.xlabel    = None
         self.ylabel    = None
